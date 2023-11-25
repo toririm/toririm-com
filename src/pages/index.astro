@@ -1,0 +1,25 @@
+---
+// Component Imports
+import Logo from '../components/Logo';
+import Counter from '../components/Counter';
+import "./index.css";
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<html lang="ja">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+	</head>
+	<body>
+		<main>
+			<Logo />
+		</main>
+		<Counter client:visible>
+			<p>Counting with SolidJS!</p>
+		</Counter>
+	</body>
+</html>

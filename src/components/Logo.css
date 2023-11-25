@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap');
+
+svg {
+    width: 50%;
+    height: auto;
+}
+
+path {
+    stroke: #000;
+    stroke-linejoin: 10;
+    fill: transparent;
+}
+
+.logo-text {
+    text-anchor: middle;
+    dominant-baseline: middle;
+    position: relative;
+    font-size: 90px;
+    font-family: 'Josefin Sans', sans-serif;
+}
