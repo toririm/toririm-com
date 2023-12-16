@@ -8,3 +8,13 @@ main {
     height: calc(100vh - 4rem);
     flex-direction: column;
 }
+
+.container {
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
